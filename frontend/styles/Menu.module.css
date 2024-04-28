@@ -1,0 +1,24 @@
+.header {
+	height: 8vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	text-decoration: none !important;
+}
+
+.navbar-nav {
+
+	color: black !important;
+
+}
+
+.linkContainer {
+	width: 25vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 36%;
+  	margin-top: 6%;
+	  text-decoration: none !important;
+}
