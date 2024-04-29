@@ -7,18 +7,19 @@
 	text-decoration: none !important;
 }
 
-.navbar-nav {
-
-	color: black !important;
-
-}
-
-.linkContainer {
-	width: 25vw;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+.man {
 	margin-left: 36%;
-  	margin-top: 6%;
-	  text-decoration: none !important;
+}
+.main{
+	color:black !important;
+}
+.navbar {
+
+	--bs-navbar-color: initial; /* Annule la couleur définie par Bootstrap */
+	--bs-navbar-color: whitesmoke !important;  /* Remplace par la couleur de texte souhaitée */
+}
+.men{
+	
+	margin-top: 2%;
+	color: black;
 }
