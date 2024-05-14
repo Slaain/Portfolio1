@@ -1,10 +1,20 @@
+@font-face {
+	font-family: "VarienRegular";
+	src: url('/fonts/Varien.otf');
+}
+@keyframes bounce {
+0%, 100% { transform: translateY(0); }
+50% { transform: translateY(-20px); }
+}
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   min-height: 100vh;
   padding: 4rem 0;
+  color: White;
+  font-size: 2rem;
+  font-family: "Varien";
   
 }
 
@@ -22,3 +32,25 @@
 	font-size: 240px;
 	z-index: -1;
 }
+.arrow {
+	border: solid rgb(255, 255, 255);
+	border-width: 0 9px 9px 0;
+	display: inline-block;
+	padding: 9px;
+	transform: rotate(45deg) translateY(50%); /* Ajoutez translateY(50%) pour fixer la flèche vers le bas */
+	-webkit-transform: rotate(45deg) translateY(50%);
+	color: white;
+	margin-top: 6%;
+	animation: bounce 1.5s infinite;
+  }
+  
+  .arrow2 {
+	border: solid rgb(255, 255, 255);
+	border-width: 0 19px 19px 0;
+	display: inline-block;
+	padding: 28px;
+	transform: rotate(95deg) translateY(80%); /* Ajoutez translateY(50%) pour fixer la flèche vers le bas */
+	-webkit-transform: rotate(95deg) translateY(90%);
+	color: white;
+	animation: bounce 1.5s infinite;
+  }

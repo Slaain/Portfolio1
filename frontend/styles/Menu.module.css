@@ -1,25 +1,19 @@
-.header {
+@font-face {
+	font-family: "VarienRegular";
+	src: url('/fonts/Varien.otf');
+}
+.menueContainer {
 	height: 8vh;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	padding: 20px;
 	text-decoration: none !important;
+	color: white;
+	margin-top: 5%;
+	font-family: "Varien";
+  
 }
-
-.man {
-	margin-left: 36%;
-}
-.main{
-	color:black !important;
-}
-.navbar {
-
-	--bs-navbar-color: initial; /* Annule la couleur définie par Bootstrap */
-	--bs-navbar-color: whitesmoke !important;  /* Remplace par la couleur de texte souhaitée */
-}
-.men{
-	
-	margin-top: 2%;
-	color: black;
+.link{
+	margin-right: 8%;
 }
