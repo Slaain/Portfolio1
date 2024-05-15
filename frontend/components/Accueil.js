@@ -10,8 +10,8 @@ function Accueil() {
     <div className={styles.container}>
       <main className={styles.allContainer}>
         <div>Idris ALI</div>
-        <div>Je suis développeur web FULLSTACK</div>
-        <div>en apprentissage</div>
+        <div>Je suis développeur web FULLSTACK JUNIOR</div>
+        <div>en recherche d'Alternance</div>
         <ArrowScroll onClick={handleScroll} />
       </main> 
     
