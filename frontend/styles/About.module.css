@@ -1,3 +1,14 @@
-.menueContainer{
-    height: 92vh;
+.propocontainer {
+  height: auto;
+  font-size: large;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  background: none;
+  margin-top: 3%;
+}
+
+.txt {
+  color: black;
+  font-size: large;
 }
