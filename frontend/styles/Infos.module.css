@@ -1,21 +1,28 @@
+.infos {
+  /* Ajoutez des styles pour le conteneur principal si nécessaire */
+}
 
-  .textinfo {
-    display: flex;
-    align-items: center;
-    margin-bottom: 4%;
+.textinfos {
+  /* Ajoutez des styles pour le conteneur des textes si nécessaire */
+}
 
-  }
-  
-  .icon {
-    margin-right: 20%;
-    color: #df7058;
+.textinfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4%;
+}
 
-  }
-  
-  .text {
-    font-size: 20px; 
-    color: #333; 
-  }
+.point {
+  width: 10px; /* Taille du point */
+  height: 10px; /* Taille du point */
+  border-radius: 50%; /* Pour rendre le point circulaire */
+  background-color: #df7058; /* Couleur du point */
+  margin-right: 20px; /* Espacement entre le point et le texte */
+  box-shadow: 0 0 10px 5px rgba(223, 112, 88, 0.8); /* Effet lumineux avec halo plus grand et légèrement transparent */
+}
 
-  
-  
+
+.text {
+  font-size: 20px; 
+  color: #333; 
+}
