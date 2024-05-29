@@ -1,0 +1,21 @@
+
+  .textinfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4%;
+
+  }
+  
+  .icon {
+    margin-right: 20%;
+    color: #df7058;
+
+  }
+  
+  .text {
+    font-size: 20px; 
+    color: #333; 
+  }
+
+  
+  

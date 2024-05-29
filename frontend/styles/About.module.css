@@ -33,7 +33,7 @@
 .moiImg {
   grid-row-start: 2;
   grid-row-end: 4;
-  grid-column-start: 3;
+  grid-column-start: 2;
   grid-column-end: 5;
   shape-outside: url('../public/moiok.jpg');
 }
@@ -43,6 +43,31 @@
   grid-row-end: 5;
   grid-column-start: 4;
   grid-column-end: 8;
-  font-size: 80%;
+  font-size: 92%;
   overflow: hidden;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  border-right: 3px solid black;
+  margin-right: 2%;
+  border-radius: 1%;
+}
+
+.textDesc::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 0; /* adjust as needed to control the width of the shadow */
+  box-shadow: 2px 0 2px 3px #000000;
+  border-radius: 2px;
+}
+.borderz{
+  grid-row-start: 2;
+  grid-row-end: 5;
+  grid-column-start: 9;
+  grid-column-end: 12;
+  font-size: 2rem;
+  overflow: hidden;
+  font-family: 'Arial Narrow', Arial, sans-serif;
 }
