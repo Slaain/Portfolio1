@@ -11,10 +11,10 @@ function Home() {
   return (
     <div className={styles.mains}>
       <div className={styles.bg}>
-        <Menu id="menu"/>
+        <Menu id="accueil"/>
         <Accueil />
       </div>
-      <About id="about" />
+      <About/>
      <Cv id="cv"/>
   
        <Skills id="skills"/> 
