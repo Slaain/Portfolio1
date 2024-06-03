@@ -58,12 +58,14 @@ function Cv() {
       details: "Réalisation d'un projet de groupe durant toutes l'année methode agile, sprint matinaux et mise en place des Objectifs a atteindre a la fin des sprint. Implanter toutes les notions apprise tout au long de l'années  "
     },
   ];
-
+ 
   return (
     
     <div className={styles.propocontainer}>
-       <div className={styles.txt}>A Propos</div>
-      <div className={styles.txt2}>A Propos</div>
+       <div className={styles.txt}>Curriculum Vitae</div>
+      <div className={styles.txt2}>Curriculum Vitae</div>
+      <button onClick={() => window.open("/cv.pdf", "_blank")} className={styles.button}>Télécharger mon CV</button>
+
       <section className={styles.section}>
         <h2 className={styles.h2}>Formation</h2>
         {formation.map((item, index) => (

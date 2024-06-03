@@ -1,7 +1,5 @@
 
 .propocontainer {
-    display: grid;
-    grid-template-columns: 1fr;
     padding: 2rem;
     width: 80%;
     margin: auto;
@@ -9,16 +7,38 @@
     font-size: large;
   
 }
-.txt {
-    color: black;
-    font-size: 2.5rem;
 
+.txt {
+  color: black;
+  font-size: 2.5rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -164%);
+}
+
+.txt2 {
+  color: black;
+  font-size: 4rem;
+  opacity: 10%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -140%);
+}
+.button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #df7058;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
   }
   
-  .txt2 {
-    color: black;
-    font-size: 4rem;
-    opacity: 10%;
+  .button:hover {
+    background-color: #357ebd;
   }
 .section {
     background: #f4f4f4;
