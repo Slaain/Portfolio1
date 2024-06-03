@@ -25,4 +25,6 @@
 }
 .link{
 	margin-right: 8%;
+	text-decoration: none; /* Enlève le soulignement */
+  color: inherit; /* Utilise la couleur par défaut */
 }

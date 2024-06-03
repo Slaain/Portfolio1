@@ -4,20 +4,20 @@ import About from '../components/About';
 import Accueil from '../components/Accueil';
 import Menu from '../components/Menu';
 import Cv from '../components/Cv';
+import Skills from '../components/Skills';
 
 function Home() {
- 
-  // console.log("voici la :", infoData);
-
+  
   return (
     <div className={styles.mains}>
       <div className={styles.bg}>
-        <Menu />
+        <Menu id="menu"/>
         <Accueil />
       </div>
-      <About />
-     <Cv/>
-      {/* <Card /> */}
+      <About id="about" />
+     <Cv id="cv"/>
+  
+       <Skills id="skills"/> 
     </div>
   );
 }

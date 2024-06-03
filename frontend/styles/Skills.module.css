@@ -1,0 +1,39 @@
+.skillsContainer {
+  margin-top: 5%; 
+}
+.container{
+    font-family: 'Arial-Narrow', sans-serif;
+}
+.skillCard {
+  transition: box-shadow 0.3s ease-in-out;
+  border: none; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.skillCard:hover {
+  box-shadow: 0 8px 16px rgba(139, 7, 139, 0.3); 
+  border-color: #df7058;
+  border: 2px solid #df7058;
+}
+.txt {
+    color: black;
+    font-size: 2.5rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -164%);
+  }
+  
+  .txt2 {
+    color: black;
+    font-size: 4rem;
+    opacity: 10%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -140%);
+  }
+  .titretexte{
+    font-weight: bold;
+  }
+  .textepara{
+    font-size: 1rem;
+  }

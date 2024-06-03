@@ -5,7 +5,7 @@ import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import Infos from './infos';
 
-function About(props) {
+function About({ id }) {
   const initialData = [
     { 
       nom: 'Idris ALI', 
@@ -37,9 +37,9 @@ function About(props) {
   ));
 
   return (
-    <div className={styles.propocontainer}>
+    <div className={styles.propocontainer}  >
       <div className={styles.txt}>A Propos</div>
-      <div className={styles.txt2}>A Propos</div>
+      <div className={styles.txt2}id={id}>A Propos</div>
       <div className={styles.moiImg}>
         <Image src="/moiok.jpg" alt="Moi" width={250} height={290} />
       </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/Cv.module.css';
 
-function Cv() {
+function Cv({id}) {
   const formation = [
     {
     title: " Concepteur Développeur d'Applications Web & Mobile (BAC +3)",
@@ -61,9 +61,9 @@ function Cv() {
  
   return (
     
-    <div className={styles.propocontainer}>
+    <div className={styles.propocontainer} > 
        <div className={styles.txt}>Curriculum Vitae</div>
-      <div className={styles.txt2}>Curriculum Vitae</div>
+      <div className={styles.txt2} id="cv">Curriculum Vitae</div>
       <button onClick={() => window.open("/cv.pdf", "_blank")} className={styles.button}>Télécharger mon CV</button>
 
       <section className={styles.section}>
