@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* Centre verticalement */
+  justify-content: center; 
   color: White;
   font-size: 1.5rem;
   font-family: "Varien";
@@ -32,20 +32,20 @@ display: block;
 	border-width: 0 9px 9px 0;
 	display: inline-block;
 	padding: 9px;
-	transform: rotate(45deg) translateY(50%); /* Ajoutez translateY(50%) pour fixer la flèche vers le bas */
+	transform: rotate(45deg) translateY(50%); 
 	-webkit-transform: rotate(45deg) translateY(50%);
 	margin-top: 6%;
 	animation: bounce 1.5s infinite;
 	cursor: pointer;
   }
   .arrow svg {
-	fill: rgb(179, 99, 99); /* Modifier la couleur */
+	fill: rgb(179, 99, 99); 
 	
   }
 .arrow2{
 	bottom: 0%;
 	position: absolute;
-	fill: rgb(223, 55, 55); /* Modifier la couleur */
+	fill: rgb(223, 55, 55); 
 
 }
   .arrowContainer{

@@ -7,12 +7,12 @@
 }
 
 .point {
-  width: 10px; /* Taille du point */
-  height: 10px; /* Taille du point */
-  border-radius: 50%; /* Pour rendre le point circulaire */
-  background-color: #df7058; /* Couleur du point */
-  margin-right: 20px; /* Espacement entre le point et le texte */
-  box-shadow: 0 0 10px 5px rgba(223, 112, 88, 0.8); /* Effet lumineux avec halo plus grand et légèrement transparent */
+  width: 10px; 
+  height: 10px; 
+  border-radius: 50%; 
+  background-color: #df7058; 
+  margin-right: 20px; 
+  box-shadow: 0 0 10px 5px rgba(223, 112, 88, 0.8); 
 }
 
 

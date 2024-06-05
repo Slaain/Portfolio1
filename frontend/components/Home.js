@@ -5,6 +5,8 @@ import Accueil from '../components/Accueil';
 import Menu from '../components/Menu';
 import Cv from '../components/Cv';
 import Skills from '../components/Skills';
+import Portofolio from './Portfolio';
+import Contact from './Contact';
 
 function Home() {
   
@@ -18,6 +20,8 @@ function Home() {
      <Cv id="cv"/>
   
        <Skills id="skills"/> 
+       <Portofolio/>
+       <Contact/>
     </div>
   );
 }
