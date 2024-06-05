@@ -5,9 +5,11 @@ import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../styles/Contact.module.css';
 
-function Contact () {
+function Contact ({id}) {
   return (
     <div className={`container mt-4 ${styles.contactContainer}`}>
+    <div className={styles.txt}>Me contacter</div>
+      <div className={styles.txt2} id={id}>Me contacter</div>
       <div className="row justify-content-center">
         {/* Section Réseaux Sociaux */}
         <div className="col-12 mb-4">

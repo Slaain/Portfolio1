@@ -7,7 +7,7 @@ import Cv from '../components/Cv';
 import Skills from '../components/Skills';
 import Portofolio from './Portfolio';
 import Contact from './Contact';
-
+import Footers from '../components/Footers';
 function Home() {
   
   return (
@@ -22,6 +22,7 @@ function Home() {
        <Skills id="skills"/> 
        <Portofolio/>
        <Contact/>
+       <Footers/>
     </div>
   );
 }
