@@ -16,12 +16,12 @@ function Contact ({id}) {
           <div className={`p-4 border rounded bg-light text-center ${styles.socialSection}`}>
             <h5 className="mb-3">Réseaux Sociaux</h5>
             <div className="d-flex justify-content-center gap-4">
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className={`text-decoration-none text-dark ${styles.socialLink}`}>
+              {/* <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className={`text-decoration-none text-dark ${styles.socialLink}`}>
                 <FontAwesomeIcon icon={faTwitter} size="2x"  color="#df7058"  />
               </a>
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className={`text-decoration-none text-dark ${styles.socialLink}`}>
                 <FontAwesomeIcon icon={faFacebook} size="2x"  color="#df7058"  />
-              </a>
+              </a> */}
               <a href="https://www.linkedin.com/in/idris-ali-b83a03210/" target="_blank" rel="noopener noreferrer" className={`text-decoration-none text-dark ${styles.socialLink}`}>
                 <FontAwesomeIcon icon={faLinkedin} size="2x"  color="#df7058" />
               </a>
