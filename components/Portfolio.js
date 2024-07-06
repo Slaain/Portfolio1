@@ -5,9 +5,10 @@ import styles from '../styles/Port.module.css';
 
 const { Meta } = Card;
 
-const PortfolioCard = ({ title, description, image, className }) => {
+const PortfolioCard = ({ title, description, image, className, href }) => {
   return (
     <div className={`mb-4 ${className}`}>
+      <a href={href} target="_blank" rel="noopener noreferrer" className={styles.projectlink}>
       <Card
         hoverable
         className="h-100 d-flex flex-column"
@@ -15,6 +16,7 @@ const PortfolioCard = ({ title, description, image, className }) => {
       >
         <Meta title={title} description={description} />
       </Card>
+      </a>
     </div>
   );
 };
@@ -29,12 +31,14 @@ const Portfolio = ({ id }) => {
     {
       title: "Site de vente Shampooing",
       description: "Réalisation d'un site de vente Shampooing en utilisant un CMS et une base de données SQL, tout en modifiant et rajoutant des fonctionnalités sur le thème grâce à JavaScript",
-      image: "imphair.png"
+      image: "imphair.png",
+      href: "https://imphair.pro/"
     },
     {
       title: "Site de cosmétiques",
       description: "Réalisation d'un site de cosmétiques en utilisant un CMS et une base de données SQL, tout en modifiant et rajoutant des fonctionnalités sur le thème grâce à JavaScript",
-      image: "lisscosmetiques.png"
+      image: "lisscosmetiques.png",
+      href: "https://lissagecosmetiques.com/"
     },
     {
       title: "Projet d'examen 2022",
@@ -44,7 +48,8 @@ const Portfolio = ({ id }) => {
     {
       title: "Site de ventes de vetements",
       description: "Réalisation d'un site de de vetements en utilisant un CMS et une base de données SQL, tout en modifiant et rajoutant des fonctionnalités sur le thème grâce à JavaScript",
-      image: "skmode.png"
+      image: "skmode.png",
+      href: "https://skmode.fr/"
     },
     {
       title: "Premier portfolio",
@@ -64,6 +69,7 @@ const Portfolio = ({ id }) => {
             title={project.title}
             description={project.description}
             image={project.image}
+            href={project.href}
             className="col-md-4"
           />
         ))}

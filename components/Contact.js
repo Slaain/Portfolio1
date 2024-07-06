@@ -6,6 +6,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../styles/Contact.module.css';
 
 function Contact ({id}) {
+
+ 
+    const handleEmailClick = () => {
+      window.location.href = "mailto:idris1390@gmail.com";
+    }
+  
   return (
     <div className={`container mt-4 ${styles.contactContainer}`}>
     <div className={styles.txt}>Me contacter</div>
@@ -57,7 +63,7 @@ function Contact ({id}) {
           <div className="p-4 border rounded bg-light text-center">
             <h5>Me Contacter</h5>
             <p>Vous pouvez me contacter directement en cliquant sur le bouton ci-dessous :</p>
-            <button className="btn btn-primary">
+            <button className="btn btn-primary" onClick={handleEmailClick}>
               <FontAwesomeIcon icon={faEnvelope} className="me-2" />
               Me Contacter
             </button>

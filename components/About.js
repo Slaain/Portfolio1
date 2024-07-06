@@ -45,7 +45,7 @@ function About({ id }) {
       </div>
       <div className={styles.textDesc}>
         <p>
-          Je m'appelle Idris ALI. Je suis développeur web en recherche d'une alternance dans le département des Bouches-du-Rhône. Actuellement en formation Concepteur Développeur d'Applications, je suis titulaire d’un Titre Professionnel BAC+2 « Développeur Web et Web Mobile ». Je code principalement en PHP et j'ai adopté le framework Symfony comme mon outil de travail principal.
+          Je m'appelle Idris ALI. Je suis développeur web en recherche d'une alternance dans le département des Bouches-du-Rhône. Actuellement en formation Concepteur Développeur d'Applications, je suis titulaire d’un Titre Professionnel BAC+4 « Concepteur developpeur d'application ». Je code principalement en PHP et j'ai adopté le framework Symfony comme mon outil de travail principal.
           Grâce à ma formation de Concepteur Développeur d'Applications, j'ai pu acquérir de nouvelles compétences, notamment la maîtrise du framework React, React Native, Node.js et TypeScript, ainsi que la base de données MongoDB. Cette formation m'a aidé à approfondir mes compétences et à apprendre de bonnes pratiques, telles que l'utilisation des reducers, pour développer des applications sécurisées et fonctionnelles.
           Pour continuer mon parcours dans ce domaine qui me passionne tant, je souhaite poursuivre mes études à l'école EPITECH et obtenir un Master en Architecture Logicielle. Cette opportunité représente un objectif crucial pour moi, me permettant d'acquérir les connaissances nécessaires pour réussir dans ce métier.
         </p>

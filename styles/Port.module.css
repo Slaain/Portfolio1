@@ -14,3 +14,11 @@
     left: 50%;
     transform: translate(-50%, -140%);
   }
+  .projectlink {
+    text-decoration: none; 
+    color: inherit; 
+  }
+  
+  .projectlink:hover {
+    text-decoration: none; 
+  }
