@@ -5,7 +5,7 @@ import Accueil from '../components/Accueil';
 import Menu from '../components/Menu';
 import Cv from '../components/Cv';
 import Skills from '../components/Skills';
-import Portofolio from './Portfolio';
+import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Footers from '../components/Footers';
 function Home() {
@@ -20,8 +20,8 @@ function Home() {
      <Cv id="cv"/>
   
        <Skills id="skills"/> 
-       <Portofolio/>
-       <Contact/>
+       <Portfolio id="portfolio" />
+       <Contact id="contact"/>
        <Footers/>
     </div>
   );

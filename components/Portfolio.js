@@ -19,7 +19,7 @@ const PortfolioCard = ({ title, description, image, className }) => {
   );
 };
 
-const Portofolio = ({ id }) => {
+const Portfolio = ({ id }) => {
   const projects = [
     {
       title: "Projet d'examen 2024 Concepteur développeur d'application",
@@ -72,4 +72,4 @@ const Portofolio = ({ id }) => {
   );
 };
 
-export default Portofolio;
+export default Portfolio;

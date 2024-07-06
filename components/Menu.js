@@ -8,8 +8,8 @@ function Menu({id}) {
           <a href="#about" className={styles.link}>A propos</a>
           <a href="#cv" className={styles.link}>CV</a>
           <a href="#skills" className={styles.link}>skills</a>
-          <Link href="/"><div className={styles.link}>Portfolio</div></Link>
-          <Link href="/"><div className={styles.link}>Contact</div></Link>
+          <Link href="#portfolio"><div className={styles.link}>Portfolio</div></Link>
+          <Link href="#contact"><div className={styles.link}>Contact</div></Link>
       </div>
    
     )}
