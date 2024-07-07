@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "VarienRegular";
-	src: url('/fonts/Varien.otf') format('woff2'),
+	src: url('/fonts/Varien.woff2') format('woff2'),
   url('/fonts/Varien.woff') format('woff'); 
 }
 @keyframes bounce {

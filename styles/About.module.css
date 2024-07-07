@@ -7,8 +7,8 @@
   background: none;
   margin-top: 3%;
   margin-bottom: 8%;
-  padding: 1rem; /* Ajout de padding pour éviter les bords coupés */
-  box-sizing: border-box; /* Inclure le padding dans la largeur totale */
+  padding: 1rem; 
+  box-sizing: border-box; 
 }
 
 .txt {
@@ -16,9 +16,9 @@
   font-size: 2.5rem;
   grid-row-start: 1;
   grid-row-end: 2;
-  grid-column-start: 6;
-  grid-column-end: 14;
-  text-align: center; /* Centrer le texte */
+  grid-column-start: 5;
+  grid-column-end: 8;
+  text-align: center; 
 }
 
 .txt2 {
@@ -27,9 +27,8 @@
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 5;
-  margin-left: 8%;
-  margin-top: -3%;
-  grid-column-end: 14;
+  margin-top: -8%;
+  grid-column-end: 8;
   opacity: 10%;
   text-align: center; /* Centrer le texte */
 }
