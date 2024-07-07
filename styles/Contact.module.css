@@ -37,4 +37,15 @@
   .me-2 {
     margin-right: 0.5rem;
   }
-  
+  @media (max-width: 768px) {
+ 
+    .txt {
+        font-size: 100% !important;
+    }
+    .txt2 {
+        font-size: 100% !important;
+    }
+    .mt-4 {
+      margin-top: 3.5rem !important;
+    }
+  }

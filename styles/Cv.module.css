@@ -1,4 +1,17 @@
-
+@media (max-width: 768px) {
+  .propocontainer {
+      width: 100% !important; 
+  }
+  .txt {
+      font-size: 100% !important;
+  }
+  .txt2 {
+    font-size:100% !important;
+  }
+  .button {
+      font-size: 1rem; 
+  }
+}
 .propocontainer {
     padding: 2rem;
     width: 80%;

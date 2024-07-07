@@ -1,3 +1,28 @@
+@media (max-width: 768px) {
+	.menueContainer {
+	  flex-direction: column; 
+	  height: auto;
+	}
+  
+	.link {
+	  margin: 10px 0; 
+	  margin-right: 0;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.fixed-menu {
+	  padding: 10px; 
+	}
+  
+	.menueContainer {
+	  padding: 0 10px; 
+	}
+  
+	.link {
+	  font-size: 0.9rem; 
+	}
+  }
 @font-face {
 	font-family: "VarienRegular";
 	src: url('/fonts/Varien.otf');
