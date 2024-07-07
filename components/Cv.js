@@ -39,12 +39,12 @@ function Cv({id}) {
       title: "Développeur web Junior chez 99concepts",
       date: "Novembre 2022 / Avril 2023 : CDD",
       institution: "Entreprise de communication /  https://lissagecosmetiques.com/",
-      details: "Réalisation via un CMS côté frontend modifié avec JavaScript et MySQL côté backend. Site internet responsive afin que les utilisateurs puissent avoir la meilleure expérience sur tout type de plateformes. Page d'authentification avec sécurisation des mots de passe cryptés. Page de profil des commandes. Ajout des commandes dans la base de données MariaDB"
+      details: "Réalisation via un React côté frontend  et MySQL côté backend. Site internet responsive afin que les utilisateurs puissent avoir la meilleure expérience sur tout type de plateformes. Page d'authentification avec sécurisation des mots de passe cryptés. Page de profil des commandes. Ajout des commandes dans la base de données MariaDB"
     },
     {
       title: "Développeur web Junior chez 99concepts",
       institution: "Concept Store - Vente de produits naturels, décoration, nourriture / https://www.iranja.fr/ ",
-      details: "Réalisation en Javascript côté frontend et MONGODB côté backend Site internet responsive afin que les utilisations puissent avoir la meilleure expérience utilisateur sur tout type de plateforme Page dauthentification avec sécurisation des mot de passe crypté.Page de profil des commandes.Ajout des commandes dans la base de donnée MARIADB"
+      details: "Réalisation via React côté frontend et MySQL côté backend Site internet responsive afin que les utilisations puissent avoir la meilleure expérience utilisateur sur tout type de plateforme Page dauthentification avec sécurisation des mot de passe crypté.Page de profil des commandes.Ajout des commandes dans la base de donnée MARIADB"
     },
     {
       title: "Projet d'examen",
