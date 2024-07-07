@@ -53,3 +53,36 @@ display: block;
 		display: flex;
 	  
   }
+  @media (max-width: 812px) {
+    .allContainer {
+      font-size: 1.2rem;
+      margin-top: 10%;
+    }
+  
+    .arrow svg {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .arrow2 {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .allContainer {
+      font-size: 1rem;
+      margin-top: 15%;
+    }
+  
+    .arrow svg {
+      width: 75px;
+      height: 75px;
+    }
+  
+    .arrow2 {
+      width: 75px;
+      height: 75px;
+    }
+  }
