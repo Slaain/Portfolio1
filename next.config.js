@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     domains: [],
   },
-  assets: ['.assets/fonts'],
+  optimizeFonts: false,
 };
 
 module.exports = nextConfig;
