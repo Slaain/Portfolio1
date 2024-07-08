@@ -31,7 +31,7 @@ function Cv({id}) {
 
   const experience = [
     {
-      title: "Projet d'examen Concepteur Développeur d'Applications Web & Mobilepteur ",
+      title: "Projet d'examen Concepteur Développeur d'Applications Web & Mobilepteur",
       date: "2024",
       details: "Realisation d'un projet d'examen nous avons opté pour une application mobile en React NATIVE, mise en place de sprint matinaux pour déterminer les objectifs et differentes tache a realiser, mise en plage d'un reducers user pour communiquer tout mes etats dans le store, création des models et des routes coté back end et mise en place des données recuperer dans le back end grace a mes etats et mes hooks d'effets."
     },

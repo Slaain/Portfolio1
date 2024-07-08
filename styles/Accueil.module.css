@@ -23,12 +23,6 @@ display: block;
 
 }
 
-/* .background {
-    color: pink;
-    opacity: 0.3;
-    font-size: 240px;
-    z-index: -1;
-  } */
 .arrow {
 	border-width: 0 9px 9px 0;
 	display: inline-block;
@@ -41,8 +35,8 @@ display: block;
   }
   .arrow svg {
 	fill: rgb(179, 99, 99); 
-	
   }
+
 .arrow2{
 	bottom: 0%;
 	position: absolute;
@@ -51,9 +45,9 @@ display: block;
 }
   .arrowContainer{
 		flex-direction: column;
-		display: flex;
-	  
+		display: flex; 
   }
+  
   @media (max-width: 812px) {
     .allContainer {
       font-size: 60% !important;
