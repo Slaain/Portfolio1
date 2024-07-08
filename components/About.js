@@ -10,10 +10,10 @@ function About({ id }) {
     { 
       nom: 'Idris ALI', 
       tel: '07.67.43.05.75', 
-      adresse: '13 rue de l\'amélie', 
+      adresse: '13 rue de l\'amélie 13127 Vitrolles', 
       pays: 'France', 
       age: '26', 
-      etude: 'License de niveau 6', 
+      etude: 'Licence de niveau 6 ( bac+ 4 ) ', 
       email: 'idris1390@gmail.com', 
       status: 'En recherche d\'alternance' 
     }
