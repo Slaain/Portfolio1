@@ -18,7 +18,8 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%, -164%);
-    font-family: "Varien";
+    font-family: "Arvo", serif;
+    font-weight: 700;
   }
   
   .txt2 {
@@ -28,7 +29,8 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%, -140%);
-    font-family: "Varien";
+    font-family: "Arvo", serif;
+  font-weight: 700;
   }
   .socialLink:hover {
     color: #007bff;

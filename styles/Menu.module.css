@@ -44,7 +44,8 @@
 	text-decoration: none !important;
 	color: white;
 	margin-top: 5%;
-	font-family: "Varien";
+	font-family: "Arvo", serif;
+  font-weight: 700;
 	cursor: pointer;
 }
 .link{

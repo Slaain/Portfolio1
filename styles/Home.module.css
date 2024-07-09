@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,700&family=Glegoo:wght@400;700&display=swap');
+
+
 .bg {
   background-image: url('../public/bg.png');
     background-repeat: no-repeat;
@@ -11,6 +14,8 @@
   align-items: center;
   min-height: 100vh;
   font-size: 1.4rem;
-  font-family: "Varien";
+  font-family: "Arvo", serif;
+  font-weight: 700;
+
   flex-grow: 1; 
 }

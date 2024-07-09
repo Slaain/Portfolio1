@@ -38,8 +38,8 @@ function About({ id }) {
 
   return (
     <div className={styles.propocontainer}  >
-      <div className={styles.txt}>A Propos</div>
-      <div className={styles.txt2} id="about">A Propos</div>
+      <div className={styles.txt}>Qui suis-je</div>
+      <div className={styles.txt2} id="about">Qui suis-je</div>
       <div className={styles.moiImg}>
         <Image src="/moiok.jpg" alt="Moi" width={250} height={290} />
       </div>
