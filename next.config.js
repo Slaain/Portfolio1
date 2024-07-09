@@ -4,7 +4,6 @@ const nextConfig = {
   images: {
     domains: [],
   },
-  optimizeFonts: false,
 };
 
 module.exports = nextConfig;
