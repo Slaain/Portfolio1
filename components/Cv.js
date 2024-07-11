@@ -64,7 +64,7 @@ function Cv({id}) {
     <div className={styles.propocontainer} > 
        <div className={styles.txt}>Curriculum Vitae</div>
       <div className={styles.txt2} id="cv">Curriculum Vitae</div>
-      <button onClick={() => window.open("/cv2.pdf", "_blank")} className={styles.button}>Télécharger mon CV</button>
+      <button onClick={() => window.open("/CV_IDRIS_ALI.pdf", "_blank")} className={styles.button}>Télécharger mon CV</button>
 
       <section className={styles.section}>
         <h2 className={styles.h2}>Formation</h2>
