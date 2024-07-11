@@ -55,6 +55,12 @@ const Portfolio = ({ id }) => {
       title: "Premier portfolio",
       description: "Réalisation d'un Portfolio en Symphony recuperation de messages envoyer grâce a mysql et stockage de données via mariadb",
       image: "port.png"
+    },
+    {
+      title: "Projet visuel",
+      description: "Réalisation de tout mes projets visuel realisé grâce a Adobe photoshop, illustrator, inDesign",
+      image: "visuels.png",
+      href:"visuel.pdf",
     }
   ];
 
